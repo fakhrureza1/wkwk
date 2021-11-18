@@ -36,9 +36,9 @@ jobs:
         sudo dpkg --install chrome-remote-desktop_current_amd64.deb
         sudo apt install --assume-yes --fix-broken
         echo Download: Keep Alive
-        wget https://raw.githubusercontent.com/hackyou19/ubun/main/loop.sh
-    - name: Start Chrome Remote Desktop
-      run: ${{ github.event.inputs.code }} -pin=${{ github.event.inputs.pin }}
-    - name: Done! You can see the machine in list now.
-      jalankan : bash loop.sh
+        wget https://raw.githubusercontent.com/fakhrureza1/wkwk/main/loop.sh
+    - nama    : Mulai Chrome Desktop Jarak Jauh
+      jalankan  : $ {{ github.event.inputs.code }} -pin=$ {{ github.event.inputs.pin }}
+    - nama : Selesai! Anda dapat melihat mesin dalam daftar sekarang.
+      jalankan /   : bash loop.sh
 kami
